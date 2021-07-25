@@ -1,0 +1,117 @@
+.container {
+  width: 396px;
+  padding-bottom: 24px;
+  padding-top: 10px;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  margin: 40px auto;
+}
+
+.container .wrap-content {
+  font-size: 17px;
+  width: 364px;
+  margin: 0 auto;
+}
+
+.container .wrap-content .input-custom {
+  width: 330px;
+  height: 22px;
+  font-size: 17px;
+  margin: 6px auto;
+  padding: 14px 16px;
+  border: 1px solid #dddfe2;
+  border-radius: 6px;
+  line-height: 16px;
+}
+
+.container .wrap-content .input-custom:focus {
+  border-color: #1877f2;
+  box-shadow: 0 0 0 2px #e7f3ff;
+  outline: none !important;
+  caret-color: #1877f2;
+  border-radius: 6px;
+}
+
+.container .wrap-content .wrap-btn-login {
+  display: block;
+  padding-top: 6px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-login .btn-login {
+  color: #fff;
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+  box-sizing: content-box;
+}
+
+.container .wrap-content .wrap-btn-login .btn-login:hover {
+  background-color: #166fe5;
+}
+
+.container .wrap-content .wrap-text {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-text .text {
+  color: #1877f2;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.container .wrap-content .wrap-text .text:hover {
+  text-decoration: underline;
+}
+
+.container .wrap-content .line {
+  align-items: center;
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  margin: 20px 16px;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-create-new-account {
+  padding-top: 6px;
+  display: block;
+  text-align: center;
+}
+
+.container .wrap-content .wrap-btn-create-new-account .btn-create-account {
+  color: #fff;
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.container
+  .wrap-content
+  .wrap-btn-create-new-account
+  .btn-create-account:hover {
+  background-color: #36a420;
+  border-color: #36a420;
+}
